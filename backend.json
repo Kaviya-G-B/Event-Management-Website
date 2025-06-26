@@ -1,0 +1,62 @@
+{
+  "events": [
+    {
+      "id": "2338",
+      "mainEvent": "Cognebula",
+      "eventStructure": [
+        {
+          "subEvent": "Technical event",
+          "events": [
+            "Workshop",
+            "Hackathon"
+          ]
+        },
+        {
+          "subEvent": "Non-Technical event",
+          "events": [
+            "Quiz Competition",
+            "Talent Show"
+          ]
+        }
+      ]
+    }
+  ],
+  "registrations": [
+    {
+      "id": "44ed",
+      "name": "Kaviya",
+      "phone": "8610951022",
+      "email": "kaviyagb@gmail.com",
+      "college": "Velammal Engineering College",
+      "events": [
+        "Workshop",
+        "Quiz Competition",
+        "Hackathon",
+        "Talent Show"
+      ]
+    },
+    {
+      "id": "2ce2",
+      "name": "Kaviya G B",
+      "phone": "8610951022",
+      "email": "kaviyagb@gmail.com",
+      "college": "Velammal Engineering College",
+      "events": [
+        "Workshop",
+        "Quiz Competition"
+      ]
+    },
+    {
+      "id": "1758",
+      "name": "Shreya",
+      "phone": "9223322122",
+      "email": "sheryarajesh@gmail.com",
+      "college": "Velammal Engineering College",
+      "events": [
+        "Workshop",
+        "Hackathon",
+        "Quiz Competition"
+      ]
+    }
+  ]
+}

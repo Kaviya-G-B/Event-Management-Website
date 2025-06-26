@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Candidate Registration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Register Candidate</h1>
+    <form id="registerForm">
+      <label>Name:</label>
+      <input type="text" id="candidateName" placeholder="Candidate Name" required>
+
+      <label>Contact Number:</label>
+      <input type="number" id="phoneNumber" placeholder="Contact Number">
+
+      <label>Email:</label>
+      <input type="email" id="email">
+
+      <label>College Name:</label>
+      <input type="text" id="collegeName" placeholder="College Name">
+
+      <div id="eventCheckboxes" class="event-columns">
+        <!-- Events will be loaded here in columns -->
+      </div>
+
+      <button type="submit">Register</button>
+    </form>
+
+    <nav>
+      <a href="index.html">Create Event</a> |
+      <a href="register.html">Register</a> |
+      <a href="search.html">Search</a>
+    </nav>
+  </div>
+
+  <script src="register.js"></script>
+</body>
+</html>
